@@ -1,0 +1,16 @@
+[project]
+name = "order-item2vec"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.10, <3.11"
+dependencies = [
+    "fastapi>=0.136.1",
+    "requests>=2.33.1",
+    "torchvision==0.26.0",
+    "uvicorn>=0.45.0",
+]
+
+[dependency-groups]
+dev = [
+    "torch>=2.11.0",
+]
